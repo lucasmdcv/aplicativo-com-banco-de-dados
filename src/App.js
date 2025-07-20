@@ -1,4 +1,6 @@
-
+git remote add origin https://github.com/lucasmdcv/aplicativo-com-banco-de-dados.git
+ git branch -M main 
+git push -u origin main
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import './App.css';
